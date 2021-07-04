@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BackBase Blog QA Functional Test Suite">
+	<listeners>
+		<listener class-name="UtilClasses.UI.ReportGenerator" />
+		<listener class-name="UtilClasses.UI.TestNGCustomReportListener" />
+		<listener class-name="UtilClasses.UI.RePrioritizingListener" />
+		<listener class-name="UtilClasses.UI.Screenshot" />
+		<listener class-name="UtilClasses.UI.ListenersDefinitionClass" />
+		</listeners>
+
+	<test name="About This">
+
+		<classes>
+			<class name="backbase.Blog.TestScenario01" />
+		</classes>
+	</test>
+
+		
+</suite>

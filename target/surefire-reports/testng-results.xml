@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BackBase Blog QA Functional Test Suite" duration-ms="64896" started-at="2021-05-03T10:57:54Z" finished-at="2021-05-03T10:58:59Z">
+    <groups>
+    </groups>
+    <test name="About This" duration-ms="64896" started-at="2021-05-03T10:57:54Z" finished-at="2021-05-03T10:58:59Z">
+      <class name="backbase.Blog.TestScenario01">
+        <test-method status="PASS" signature="basetest()[pri:0, instance:backbase.Blog.TestScenario01@5350ab17]" name="basetest" is-config="true" duration-ms="16632" started-at="2021-05-03T16:27:54Z" finished-at="2021-05-03T16:28:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basetest -->
+        <test-method status="PASS" signature="testcase01()[pri:100000000, instance:backbase.Blog.TestScenario01@5350ab17]" name="testcase01" duration-ms="14256" started-at="2021-05-03T16:28:12Z" description="This testcase is validating signup Functionality" finished-at="2021-05-03T16:28:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase01 -->
+        <test-method status="PASS" signature="testcase02()[pri:100000000, instance:backbase.Blog.TestScenario01@5350ab17]" name="testcase02" duration-ms="1094" started-at="2021-05-03T16:28:26Z" description="Validation of newPost" finished-at="2021-05-03T16:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase02 -->
+        <test-method status="PASS" signature="testcase03()[pri:100000000, instance:backbase.Blog.TestScenario01@5350ab17]" name="testcase03" duration-ms="13512" started-at="2021-05-03T16:28:27Z" description="Add Comments to Published Articles" finished-at="2021-05-03T16:28:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase03 -->
+        <test-method status="PASS" signature="testcase04()[pri:100000000, instance:backbase.Blog.TestScenario01@5350ab17]" name="testcase04" duration-ms="6228" started-at="2021-05-03T16:28:41Z" description="Validate the tags in the homePage" finished-at="2021-05-03T16:28:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase04 -->
+        <test-method status="PASS" signature="testcase05()[pri:100000000, instance:backbase.Blog.TestScenario01@5350ab17]" name="testcase05" duration-ms="5687" started-at="2021-05-03T16:28:47Z" description="Validate the Favoratised tab in HomePage" finished-at="2021-05-03T16:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase05 -->
+        <test-method status="PASS" signature="sessionlogout()[pri:0, instance:backbase.Blog.TestScenario01@5350ab17]" name="sessionlogout" is-config="true" duration-ms="6438" started-at="2021-05-03T16:28:53Z" description="Logout Successfully" finished-at="2021-05-03T16:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionlogout -->
+      </class> <!-- backbase.Blog.TestScenario01 -->
+    </test> <!-- About This -->
+  </suite> <!-- BackBase Blog QA Functional Test Suite -->
+</testng-results>

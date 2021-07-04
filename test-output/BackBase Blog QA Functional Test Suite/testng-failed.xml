@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BackBase Blog QA Functional Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="UtilClasses.UI.ReportGenerator"/>
+    <listener class-name="UtilClasses.UI.TestNGCustomReportListener"/>
+    <listener class-name="UtilClasses.UI.RePrioritizingListener"/>
+    <listener class-name="UtilClasses.UI.Screenshot"/>
+    <listener class-name="UtilClasses.UI.ListenersDefinitionClass"/>
+  </listeners>
+  <test name="About This(failed)">
+    <classes>
+      <class name="backbase.Blog.TestScenario01">
+        <methods>
+          <include name="testcase03"/>
+          <include name="sessionlogout"/>
+          <include name="basetest"/>
+        </methods>
+      </class> <!-- backbase.Blog.TestScenario01 -->
+    </classes>
+  </test> <!-- About This(failed) -->
+</suite> <!-- Failed suite [BackBase Blog QA Functional Test Suite] -->
